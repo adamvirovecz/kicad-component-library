@@ -1,7 +1,7 @@
 (footprint "IN-8-2" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr through_hole)
-  (fp_text reference "REF**" (at 0 -9.75 unlocked) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0 -10.4 unlocked) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 91ba735a-7823-46e0-945d-0a47d9acc19b)
   )
@@ -21,7 +21,7 @@
     (stroke (width 0.12) (type default)) (layer "F.SilkS") (tstamp bc37c7e5-924e-46be-b4e8-7e663842089d))
   (fp_line (start 0 8.5) (end 0.25 8.25)
     (stroke (width 0.12) (type default)) (layer "F.SilkS") (tstamp 260be9b8-93f3-477a-8350-9e5299276722))
-  (fp_circle (center 0 0) (end 0 -9)
+  (fp_circle (center 0 0) (end 9.5 0)
     (stroke (width 0.12) (type default)) (fill none) (layer "F.SilkS") (tstamp 9bc302af-8642-4039-b046-07993fa6d9eb))
   (fp_poly
     (pts
@@ -31,9 +31,9 @@
     )
 
     (stroke (width 0.12) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 7b8469ac-3e59-45e2-b57a-630d737a770e))
-  (fp_rect (start -9.25 -9.25) (end 9.25 9.25)
+  (fp_rect (start -9.75 -9.75) (end 9.75 9.75)
     (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp a83036f5-6aa1-409e-bb93-dfe3371a494f))
-  (fp_circle (center 0 0) (end 0 -9)
+  (fp_circle (center 0 0) (end 9.5 0)
     (stroke (width 0.1) (type default)) (fill none) (layer "F.Fab") (tstamp 5ee72708-f933-4e6d-b0a8-47bc60769885))
   (pad "1" thru_hole circle (at 2.32 -4.43) (size 1.8 1.8) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 80a954af-636a-48c0-98f5-6a9c0b526ba8))
   (pad "2" thru_hole circle (at 4.11 -2.84) (size 1.8 1.8) (drill 1) (layers "*.Cu" "*.Mask") (tstamp a5cc7d76-79cd-4c40-bb7c-97460be4ddf7))
@@ -47,4 +47,9 @@
   (pad "10" thru_hole circle (at -4.96 -0.6) (size 1.8 1.8) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 8b30b262-c5da-4ddf-a501-93c7f07da83e))
   (pad "11" thru_hole circle (at -4.11 -2.84) (size 1.8 1.8) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 21990920-1dd8-410c-b6ab-80b43edff4cb))
   (pad "12" thru_hole circle (at -2.32 -4.42) (size 1.8 1.8) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 238084fb-0419-4752-8760-148346a4c4aa))
+  (model "${KICAD_USER_3DMODEL_DIR}/NixieTube_IN.3dshapes/nixie_in_8_2_basic.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -118))
+  )
 )
