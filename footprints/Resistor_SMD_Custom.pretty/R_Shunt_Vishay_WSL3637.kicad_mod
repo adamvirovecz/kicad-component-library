@@ -1,0 +1,278 @@
+(footprint "R_Shunt_Vishay_WSL3637"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Vishay WSL3637 Power Metal Strip® Resistors, Low Value (Down to 0.001 Ω), Surface-Mount, 4-Terminal")
+	(tags "shunt resistor")
+	(property "Reference" "REF**"
+		(at 0 -6.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9384c7ed-92b6-45ba-b2c4-9e548d16344c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "R_Shunt_Vishay_WSL3637"
+		(at 0 6.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1dbb1acc-2d74-4f22-8f8f-37df675b536e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f0849157-9d47-49fc-8903-909aefc004d2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e434c536-2450-4e5c-8b41-854d8514e67e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a0cc6c4-c258-4586-814c-9832580556c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.8 -2)
+		(end -4.8 2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "44a0f499-9652-4c9c-900c-2d535e2dbb30")
+	)
+	(fp_line
+		(start 4.8 -2)
+		(end 4.8 2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c2cdf0b0-90db-447f-a1dc-f78f2d2dffee")
+	)
+	(fp_rect
+		(start -5.2 -5.5)
+		(end 5.2 5.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "f696eb9f-2905-4a40-8c6a-fb3b089e0ac1")
+	)
+	(fp_line
+		(start -4.7 -4.57)
+		(end 2.337 -4.57)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "b8fda90d-eeec-4f58-9a10-7e9df53cf7ed")
+	)
+	(fp_line
+		(start -4.7 4.57)
+		(end -4.7 -4.57)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "dbc2dd10-fadb-482f-81cd-8fe9d912e2ba")
+	)
+	(fp_line
+		(start 2.337 -4.57)
+		(end 2.337 -2.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "fa1afa0d-9648-4d9a-a0ed-6e5014b22af4")
+	)
+	(fp_line
+		(start 2.337 -2.9)
+		(end 3.15 -2.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "32d02f12-7724-426f-bce4-fb40e84a9c35")
+	)
+	(fp_line
+		(start 2.337 2.9)
+		(end 2.337 4.57)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "251dfc31-cc5b-4644-a0d2-54e477a61f05")
+	)
+	(fp_line
+		(start 2.337 2.9)
+		(end 3.15 2.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "bd4775d6-73df-4413-968d-8621bfacf2e2")
+	)
+	(fp_line
+		(start 2.337 4.57)
+		(end -4.7 4.57)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "2e7cf593-59bf-48e8-8441-65a6fed731db")
+	)
+	(fp_line
+		(start 3.15 -4.57)
+		(end 3.15 -2.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "3acaf716-ea05-4429-b05c-394731ff5359")
+	)
+	(fp_line
+		(start 3.15 -4.57)
+		(end 4.7 -4.57)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "b1f9d31d-20af-4769-9dc4-e6ddf805d173")
+	)
+	(fp_line
+		(start 3.15 2.9)
+		(end 3.15 4.57)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "7b8c5d54-6faf-45ad-b2f9-3b21e9198f45")
+	)
+	(fp_line
+		(start 3.15 4.57)
+		(end 4.7 4.57)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "e5ff7e16-32d0-4c21-b2a1-e0622aac1609")
+	)
+	(fp_line
+		(start 4.7 -4.57)
+		(end 4.7 4.57)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "ecd1c817-04c8-4e0b-8b13-6c22851bcfe0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "91796f6a-d83e-4b12-8b72-db6aec5f036d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.145 3.735)
+		(size 7.62 2.95)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.08474576271)
+		(thermal_bridge_angle 45)
+		(uuid "0c0fe730-ffa6-4c08-81b1-9a9394290d59")
+	)
+	(pad "2" smd roundrect
+		(at 4.115 3.735)
+		(size 1.68 2.95)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1488095238)
+		(thermal_bridge_angle 45)
+		(uuid "9b4c83b4-0ebd-452e-99bc-a7eed664b8cd")
+	)
+	(pad "3" smd roundrect
+		(at 4.115 -3.735)
+		(size 1.68 2.95)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1488095238)
+		(thermal_bridge_angle 45)
+		(uuid "d417b64c-119c-4d49-86a5-6b093e3eec3c")
+	)
+	(pad "4" smd roundrect
+		(at -1.145 -3.735)
+		(size 7.62 2.95)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.08474576271)
+		(thermal_bridge_angle 45)
+		(uuid "8af8cddb-4f4d-418a-a3b8-c70aa497c75a")
+	)
+	(model "${KICAD_USER_3DMODEL_DIR}/Resistor_SMD_Custom.3dshapes/WSL3637R0100FEA.stp"
+		(offset
+			(xyz 4.7 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)

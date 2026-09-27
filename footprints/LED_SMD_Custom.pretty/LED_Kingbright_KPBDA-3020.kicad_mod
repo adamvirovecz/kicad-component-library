@@ -1,0 +1,351 @@
+(footprint "LED_Kingbright_KPBDA-3020"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Kingbright Right Angle Bicolor SMD LED")
+	(property "Reference" "REF**"
+		(at 0 1.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "010c3441-968e-4c13-b2a4-6e76cc488b02")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_Kingbright_KPBDA-3020"
+		(at 0 -3.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "70cc3778-890f-42b2-b239-c62421f3e10f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d0cca4fc-532b-442b-ae25-019d948c4dfe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://hu.mouser.com/datasheet/2/216/APBDA3020SURKCGKC_GX-80405.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "653c5fb4-559e-42cd-927a-499813e3b179")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "83b4760e-a03c-4c06-bd6d-1e63e6bf8189")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.3 -0.4)
+		(end -2.3 0.7)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c1afa000-5c1c-4cb5-be47-437b2122aed2")
+	)
+	(fp_line
+		(start -2.3 0.7)
+		(end -0.8 0.7)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8db725cf-a1a5-4198-8de9-afd0bb019f1c")
+	)
+	(fp_line
+		(start -0.8 0.7)
+		(end -0.8 1.1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7bfe9575-9bf8-4e83-83fe-667b2536b37a")
+	)
+	(fp_line
+		(start -0.8 1.1)
+		(end 0.8 1.1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "45e2e6fa-60c0-42ec-aba7-fa531f76394f")
+	)
+	(fp_line
+		(start 0.8 0.7)
+		(end 2.1 0.7)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fd7312e0-2da5-48f8-b5b3-2db6bcc2d1bc")
+	)
+	(fp_line
+		(start 0.8 1.1)
+		(end 0.8 0.7)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "05cb57de-fa2f-4b05-b86b-482e3230f90c")
+	)
+	(fp_line
+		(start -2.3 0.7)
+		(end -2.3 -0.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "c2caf2c1-a404-4edb-8513-7c9000a096d4")
+	)
+	(fp_line
+		(start -2.3 0.7)
+		(end -0.8 0.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "64218612-76a0-48cf-b6df-e86b5b097c07")
+	)
+	(fp_line
+		(start -1.4 -2.8)
+		(end -1.4 -0.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "37aab5dc-2ced-4539-9e30-e38d5f2f1b96")
+	)
+	(fp_line
+		(start -1.4 -0.6)
+		(end -2.3 -0.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "7eec90d9-46c4-492c-b028-5acb7ac67583")
+	)
+	(fp_line
+		(start -0.8 0.7)
+		(end -0.8 1.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "dcbd5e8c-69e3-4db3-a218-e7e436c8e8af")
+	)
+	(fp_line
+		(start -0.8 1.1)
+		(end 0.8 1.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "5f0fdbab-9e47-4a95-8ab5-1387c4bd5bc4")
+	)
+	(fp_line
+		(start 0.8 0.7)
+		(end 2.3 0.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "449399f0-5f2e-412e-9240-5cfda1ec6e28")
+	)
+	(fp_line
+		(start 0.8 1.1)
+		(end 0.8 0.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "dde0d8cf-1fd0-4f25-9352-4de1f30e6c34")
+	)
+	(fp_line
+		(start 1.4 -2.8)
+		(end -1.4 -2.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "8a55c210-0789-4af6-bac1-2259d283b5b9")
+	)
+	(fp_line
+		(start 1.4 -0.6)
+		(end 1.4 -2.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "c809f137-60b9-480c-8171-13650a442e86")
+	)
+	(fp_line
+		(start 2.3 -0.6)
+		(end 1.4 -0.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "d547518d-f0b6-4289-9ccd-c7ab7b1b9679")
+	)
+	(fp_line
+		(start 2.3 0.7)
+		(end 2.3 -0.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "9e490af5-27b1-4719-a1f8-b2edbe7fdb8a")
+	)
+	(fp_line
+		(start -0.8 -1.9956)
+		(end -0.95 -1.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "484e9ae3-6817-4860-b757-150eb451c97e")
+	)
+	(fp_line
+		(start 0.8 -1.9956)
+		(end 0.95 -1.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "80fa3eec-6a22-452c-bcf5-7988e81d1959")
+	)
+	(fp_rect
+		(start -1.5 -0.25)
+		(end 1.5 0.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "9102992f-55f8-4bb0-90da-592f53744349")
+	)
+	(fp_rect
+		(start -1.1 -1.35)
+		(end 1.1 -0.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "f1a0176a-336b-4391-bd7c-32f252f5e5c4")
+	)
+	(fp_arc
+		(start -0.8 -1.9956)
+		(mid 0 -2.55)
+		(end 0.8 -1.9956)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "91ba6656-59d0-45a9-b2ab-6dd76cfce2bc")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -1.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5382d6fd-e2a8-4bae-a5a7-5c091edf0a63")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.5 0)
+		(size 1.2 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1)
+		(thermal_bridge_angle 45)
+		(uuid "2e1dde7b-f7a9-4fef-8e1d-bd6f91f042f1")
+	)
+	(pad "2" smd roundrect
+		(at 0 0.45)
+		(size 1 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1)
+		(thermal_bridge_angle 45)
+		(uuid "634ee9ec-fa55-4083-95e0-9fc3bf6ce954")
+	)
+	(pad "3" smd roundrect
+		(at 1.5 0)
+		(size 1.2 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1)
+		(thermal_bridge_angle 45)
+		(uuid "6c0ed11a-8ae3-45e4-92be-12a3a2e7c1ee")
+	)
+	(model "${KICAD_USER_3DMODEL_DIR}/LED_SMD_Custom.3dshapes/APBDA3020SURKCGKC-GX.stp"
+		(offset
+			(xyz 0 0 1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 180 0)
+		)
+	)
+)

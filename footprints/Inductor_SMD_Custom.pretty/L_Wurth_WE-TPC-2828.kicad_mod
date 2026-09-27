@@ -1,0 +1,203 @@
+(footprint "L_Wurth_WE-TPC-2828"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "L_Wuerth_WE-TPC-2828 footprint")
+	(tags "wurth wuerth smd inductor")
+	(property "Reference" "REF**"
+		(at 0.1 -2.4 0)
+		(layer "F.SilkS")
+		(uuid "9cfab945-ad10-448a-81af-ba4a7fe54d27")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Wurth_WE-TPC-2828"
+		(at 0 2.5 0)
+		(layer "F.Fab")
+		(uuid "108229c1-500c-4c78-aaad-9d086a7f6743")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa343119-7893-48f7-97ca-66d72fdadb94")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7f71c14-dc08-4aa4-963f-cecc4cf8aa48")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.55 0.4)
+		(end -1.55 -0.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d0c87a45-c8f5-4617-9779-56b68a56713e")
+	)
+	(fp_line
+		(start 1.55 0.4)
+		(end 1.55 -0.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "88d13aaf-a870-4fe9-bee9-99878e19c5a8")
+	)
+	(fp_rect
+		(start -1.8 -1.8)
+		(end 1.8 1.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "45c05da9-d821-4253-b8a7-def7deb541fe")
+	)
+	(fp_line
+		(start -1.4 -0.5)
+		(end -1.4 0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "a9b5624e-8d25-43bc-853a-4b9125b2e69b")
+	)
+	(fp_line
+		(start -1.4 0.5)
+		(end -0.5 1.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "ae898b59-17eb-485a-a59a-a7cc26082f7e")
+	)
+	(fp_line
+		(start -0.5 -1.4)
+		(end -1.4 -0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "993069c5-c112-4cf7-8268-fd1d1a886ec9")
+	)
+	(fp_line
+		(start -0.5 -1.4)
+		(end 0.5 -1.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "9618999f-c1cc-4806-89db-0b13500163c3")
+	)
+	(fp_line
+		(start -0.5 1.4)
+		(end 0.5 1.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "56436b51-5a7a-4901-bfcc-5868440b120a")
+	)
+	(fp_line
+		(start 0.5 -1.4)
+		(end 1.4 -0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "36b72257-8ca6-45b3-ac25-7e1e923e4b08")
+	)
+	(fp_line
+		(start 1.4 -0.5)
+		(end 1.4 0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "4e5ea19e-33dc-4c39-8ca0-0b2b68950a27")
+	)
+	(fp_line
+		(start 1.4 0.5)
+		(end 0.5 1.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "f62d3bd8-bbd9-4d59-b4b5-4ce8ecdbc6fe")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "9670679c-1237-4939-868c-04b3e177d57d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 -1.1)
+		(size 3.2 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "dcc7aaf0-33ce-406f-9013-bcadb2ad4d0d")
+	)
+	(pad "2" smd rect
+		(at 0 1.1)
+		(size 3.2 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "24fcb3a3-71da-46d5-ac64-6b863abde81b")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_3DMODEL_DIR}/Inductor_SMD_Custom.3dshapes/WE-TPC_2828 (rev1).stp"
+		(offset
+			(xyz 0 0 0.3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
